@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="174.0" prefWidth="363.0" style="-fx-background-color: #f24b0f;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="homeButton" fitHeight="42.0" fitWidth="54.0" layoutX="155.0" layoutY="125.0">
+         <image>
+            <Image url="@imgbgr/Menu/Home/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="270.0" layoutX="46.0">
+         <image>
+            <Image url="@imgbgr/Menu/Scene/end_game.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homeButtonOnMouse" fitHeight="61.0" fitWidth="73.0" layoutX="145.0" layoutY="116.0">
+         <image>
+            <Image url="@imgbgr/Menu/Home/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

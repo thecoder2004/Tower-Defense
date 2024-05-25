@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="619.0" prefWidth="994.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="619.0" fitWidth="994.0">
+         <image>
+            <Image url="@imgbgr/Tutor/tutorial_bgr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Back" fitHeight="62.0" fitWidth="85.0" layoutX="910.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Menu/Home/Back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Back_OnMouse" fitHeight="62.0" fitWidth="93.0" layoutX="906.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Menu/Home/Back_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="580.0" fitWidth="842.0" layoutX="70.0" layoutY="25.0">
+         <image>
+            <Image url="@imgbgr/Tutor/tutorial_table.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="Tutorial_Table" layoutX="177.0" layoutY="99.0" prefHeight="427.0" prefWidth="627.0" text="Tựa game Turret Defense II là một trò chơi thử thách trí tuệ, hấp dẫn và thú vị. Trò chơi kết hợp giữa yếu tố chiến thuật và thể loại phòng thủ tháp trụ, đem đến cho người chơi những trải nghiệm độc đáo và căng thẳng.&#10;&#10;Trò chơi cho phép bạn xây dựng và nâng cấp các trụ phòng thủ, mỗi trụ có những tính năng khác nhau và khả năng bắn ra các loại đạn khác nhau để tiêu diệt quái vật. Các quái vật sẽ xuất hiện theo từng đợt, mục tiêu của chúng là di chuyển đến trung tâm căn cứ của các bạn. Nếu như số lượng quái vật di chuyển tới căn cứ vượt quá mức an toàn, bạn sẽ thất bại. &#10;&#10;Để xây dựng các trụ phòng trủ hay nâng cấp chúng, bạn phải mua bằng lượng vàng sẵn có. Trong quá trình chơi, lượng vàng của bạn sẽ tăng theo thời gian và có thể kiếm thêm bằng việc hạ gục các quái vật. Khi mua một trụ mới, bạn không được phép đặt trụ vào địa hình hay vào vị trí làm chặn tất cả đường đi của quái đến căn cứ. Bạn yên tâm vì hệ thống trò chơi sẽ ngăn chặn việc đó xảy ra. Ngoài ra, nếu như bạn phá hủy một trụ phòng thủ thì sẽ không có lượng vàng nào cộng thêm từ việc phá hủy đó. Bên cạnh việc sắp đặt trụ phòng thủ, bạn cần có khả năng quản lý tài chính tốt.&#10;&#10;Bạn cần chiến đấu thông qua các cấp độ khó khăn, từ dễ đến khó, và đối mặt với đủ loại quái vật nguy hiểm. Hãy sử dụng chiến thuật thông minh để đặt trụ phòng thủ ở các vị trí chiến lược, tận dụng lợi thế địa hình và khả năng đặc biệt của các trụ để đảm bảo sự an toàn cho thế giới. &#10;&#10;&quot;Biết mình biết ta. Trăm trận trăm thắng&quot;. Hãy xem qua thông tin các loại quái vật và trủ phòng trụ để có một chiến thuật tài tình nhé!&#10;&#10;" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <ImageView fx:id="Monster" fitHeight="81.0" fitWidth="200.0" layoutX="141.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/monster_tutor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Turret" fitHeight="81.0" fitWidth="200.0" layoutX="641.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/turret_tutor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Tutorial" fitHeight="81.0" fitWidth="200.0" layoutX="391.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/tutor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Tutorial_OnMouse" fitHeight="81.0" fitWidth="200.0" layoutX="391.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/tutor_Onmouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Monster_OnMouse" fitHeight="81.0" fitWidth="200.0" layoutX="141.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/monster_tutor_Onmouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Turret_OnMouse" fitHeight="81.0" fitWidth="200.0" layoutX="641.0" layoutY="6.0">
+         <image>
+            <Image url="@imgbgr/Tutor/turret_tutor_Onmouse.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="SP_Monster" layoutX="173.0" layoutY="99.0" prefHeight="439.0" prefWidth="634.0">
+         <content>
+          <AnchorPane fx:id="AP_Monster" minHeight="0.0" minWidth="0.0" prefHeight="843.0" prefWidth="618.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="14.0">
+                     <image>
+                        <Image url="@imgbgr/Monster/QuaiGai/Quái_Gai%20(trái).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="148.0" fitWidth="177.0" layoutX="23.0" layoutY="221.0">
+                     <image>
+                        <Image url="@imgbgr/Monster/QuaiSatThu/Quái%20Sát%20Thủ%20(phải).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="187.0" fitWidth="229.0" layoutX="3.0" layoutY="413.0">
+                     <image>
+                        <Image url="@imgbgr/Monster/QuaiTuThan/Quái%20Tử%20Thần%20(Trước).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="207.0" fitWidth="268.0" layoutX="-24.0" layoutY="606.0">
+                     <image>
+                        <Image url="@imgbgr/Monster/QuaiRong/Quái%20Rồng%20(Trước%20+%20Low).png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="InfoGai" layoutX="235.0" layoutY="14.0" prefHeight="169.0" prefWidth="368.0" text="Loại quái vật: Quái Giáp Gai&#10;Mô tả: Con quái to khỏe được xem là biểu tượng của sức mạnh và sự bất khả xâm phạm. Với kích thước khổng lồ và cơ bắp vạm vỡ, nó gây ấn tượng mạnh với bất kỳ ai nhìn thấy. &#10;Đặc điểm: Lượng máu ..... Tốc độ .....&#10;" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="InfoSatThu" layoutX="235.0" layoutY="184.0" prefHeight="221.0" prefWidth="368.0" text="Loại quái vật: Quái Sát Thủ&#10;Mô tả: Quái sát thủ là một sự kết hợp giữa sự tinh thông về vũ khí, sự nhanh nhẹn và khả năng ẩn nấp. Chúng được huấn luyện để tiếp cận mục tiêu một cách không bị phát hiện và thực hiện các nhiệm vụ tuyệt mật.&#10;Đặc điểm: Lượng máu ..... Tốc độ .....&#10;Nội tại: Khả năng tàng hình giúp không bị chọn làm mục tiêu, tuy nhiên vẫn sẽ bị ảnh hưởng với các loại sát thương diện rộng." wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="InfoTuThan" layoutX="235.0" layoutY="423.0" prefHeight="208.0" prefWidth="368.0" text="Loại quái vật: Quái Tử Thần&#10;Mô tả: Quái tử thần là một hiện thân của sự chết chóc và hủy diệt. Với hình dạng ám ảnh và tàn bạo, nó đại diện cho sự tàn phá và quyền lực vô địch của cõi chết.&#10;Đặc điểm: Lượng máu ..... Tốc độ .....&#10;Khả năng: Tử thần có khả năng bay lượn nên không bị chọn làm mục tiêu với loại trụ Đại bác.&#10;" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="InfoRong" layoutX="235.0" layoutY="623.0" prefHeight="205.0" prefWidth="368.0" text="Loại quái vật: Quái Rồng Lộn&#10;Mô tả: Quái rồng là biểu tượng của sự uy quyền, quyền lực và sự thống trị. Hình dáng của chúng thường được miêu tả với cơ thể khổng lồ, cơ thể chắc chắn và đôi cánh rộng rộng lớn đại diện cho sự thống trị bầu trời.&#10;Đặc điểm: Lượng máu ..... Tốc độ .....&#10;Nội tại: Rồng Lộn có khả năng bay lượn nên không bị chọn làm mục tiêu với loại trụ Đại bác." wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ScrollPane fx:id="SP_Turret" layoutX="173.0" layoutY="99.0" prefHeight="439.0" prefWidth="634.0">
+        <content>
+          <AnchorPane fx:id="AP_Turret" minHeight="0.0" minWidth="0.0" prefHeight="1378.0" prefWidth="624.0">
+               <children>
+                  <Text fill="#b83700" layoutX="19.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Trụ Đại Bác" wrappingWidth="143.5377712249756">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="102.0" fitWidth="101.0" layoutX="40.0" layoutY="32.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Cannon/Cannon%20Level%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="117.0" fitWidth="118.0" layoutX="36.0" layoutY="83.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Cannon/Cannon%20Level%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="113.0" fitWidth="138.0" layoutX="34.0" layoutY="161.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Cannon/Cannon%20Level%203.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="Cannon" layoutX="179.0" layoutY="59.0" prefHeight="180.0" prefWidth="430.0" text="Mô tả: Trụ Đại Bác thường là một vũ khí mạnh mẽ và ấn tượng. Với hỏa lực mãnh mẽ, có thể thiêu rụi di chuyển trên mặt đất. Chúng được sử dụng như một công cụ quan trọng để xây dựng và phòng thủ căn cứ, gây ra sát thương lớn với những quái vật di chuyển trên mặt đất và tạo ra hiệu ứng kinh hoàng.&#10;Phạm vi theo cấp: ..... - ...... - ......&#10;Sát thương theo cấp: ..... - ...... - ......" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="#b93800" layoutX="19.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Trụ Băng" wrappingWidth="143.5377712249756">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="117.0" fitWidth="117.0" layoutX="29.0" layoutY="274.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Ice/Turret%20Ice%20level%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="130.0" fitWidth="123.0" layoutX="26.0" layoutY="326.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Ice/Turret%20Ice%20level%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="133.0" layoutX="29.0" layoutY="401.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Ice/Turret%20Ice%20level%203.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="Ice" layoutX="179.0" layoutY="303.0" prefHeight="180.0" prefWidth="430.0" text="Mô tả: Trụ bắn đạn băng, một sự kết hợp giữa sức mạnh và tàn phá, là biểu tượng của sự tráng kiện và hiệu quả. Khi mọi thứ trở nên nóng bỏng, trụ đóng vai trò là &quot;người hùng lạnh lùng&quot; giữa cuộc chiến.&#10;Nội tại: Làm chậm khả năng di chuyển của quái vật.&#10;Phạm vi theo cấp: ..... - ...... - ......&#10;Sát thương theo cấp: ..... - ...... - ......&#10;Mức độ giảm tốc: ..... - ...... - ......" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="#b93800" layoutX="19.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.Trụ Laser" wrappingWidth="143.5377712249756">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="121.0" fitWidth="111.0" layoutX="32.0" layoutY="536.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Light/Turret%20Light%20Level%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="125.0" fitWidth="129.0" layoutX="23.0" layoutY="598.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Light/Turret%20Light%20Level%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="142.0" fitWidth="132.0" layoutX="30.0" layoutY="661.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Light/Turret%20Light%20Level%203.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="Light" layoutX="179.0" layoutY="566.0" prefHeight="202.0" prefWidth="430.0" text="Mô tả: Trụ laser là một hệ thống phòng thủ mạnh mẽ, sử dụng công nghệ tia laser cực mạnh để tấn công và tiêu diệt mục tiêu. Với tốc độ ánh sáng không thể đạt được, trụ laser có thể phản ứng nhanh chóng và bắn ra những tia laser chính xác và tức thì.&#10;Nội tại: Có hiệu ứng sát thương lan sang những con quái vật gần nhau (tối đa 5 mục tiêu ảnh hưởng).&#10;Phạm vi theo cấp: ..... - ...... - ......&#10;Sát thương theo cấp: ..... - ...... - ......" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="#b93800" layoutX="14.0" layoutY="812.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Trụ Phòng Không" wrappingWidth="211.5377712249756">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="54.0" fitWidth="56.0" layoutX="75.0" layoutY="836.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Air%20Defense/Air%20Defense%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="62.0" layoutX="72.0" layoutY="896.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Air%20Defense/Air%20Defense%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="81.0" fitWidth="75.0" layoutX="65.0" layoutY="976.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Air%20Defense/Air%20Defense%203.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="PK" layoutX="179.0" layoutY="849.0" prefHeight="202.0" prefWidth="430.0" text="Mô tả: Trụ phòng không, còn được gọi là hệ thống phòng không, là một hệ thống phòng thủ quan trọng và cần thiết trong việc bảo vệ không gian, lãnh thổ khỏi các mối đe dọa từ quái vật. Nó còn là biểu tượng của sự mạnh mẽ và sự bất khả xâm phạm. Nó đại diện cho khả năng tự bảo vệ và trở thành một người bảo vệ vững chắc trong cuộc chiến.&#10;Phạm vi theo cấp: ..... - ...... - ......&#10;Sát thương theo cấp: ..... - ...... - ......" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="#b93800" layoutX="14.0" layoutY="1105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Pháo Cối" wrappingWidth="211.5377712249756">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="51.0" fitWidth="50.0" layoutX="71.0" layoutY="1126.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Mortal/Mortar%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="62.0" fitWidth="66.0" layoutX="62.0" layoutY="1191.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Mortal/Mortar%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="81.0" fitWidth="76.0" layoutX="53.0" layoutY="1272.0">
+                     <image>
+                        <Image url="@imgbgr/Turret/Mortal/Mortar%203.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="PC" layoutX="179.0" layoutY="1115.0" prefHeight="249.0" prefWidth="430.0" text="Mô tả: Pháo Cối là một loại vũ khí hủy diệt mạnh mẽ và quan trọng. Nó là một phần không thể thiếu trong bộ sưu tập vũ khí của người chơi, cung cấp khả năng tấn công từ xa và tạo ra sự tàn phá đáng kinh ngạc. Chúng được thiết kế với đường ống nòng mạnh mẽ và khung chân chống vững chắc. Với khả năng tạo ra lực nổ mạnh và phạm vi bắn xa, pháo cối là một công cụ hiệu quả để tiêu diệt quái vật.&#10;Nội tại: Sát thương đầu đạn gây ra trong phạm vi lớn. Tuy nhiên tốc độ đạn bay chậm nên có thể hụt mục tiêu.&#10;Phạm vi theo cấp: ..... - ...... - ......&#10;Sát thương theo cấp: ..... - ...... - ......" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

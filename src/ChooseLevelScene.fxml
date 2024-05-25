@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="619.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="619.0" fitWidth="993.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Bgr_ChooseLevel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="1" fitHeight="70.0" fitWidth="87.0" layoutX="128.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level1/Lv1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="2" fitHeight="70.0" fitWidth="87.0" layoutX="153.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level2/Lv2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="3" fitHeight="70.0" fitWidth="87.0" layoutX="472.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level3/Lv3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="4" fitHeight="70.0" fitWidth="87.0" layoutX="719.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level4/Lv4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="5" fitHeight="70.0" fitWidth="87.0" layoutX="867.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level5/Lv5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="11" fitHeight="70.0" fitWidth="87.0" layoutX="128.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level1/Lv1_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="22" fitHeight="70.0" fitWidth="87.0" layoutX="153.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level2/Lv2_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="33" fitHeight="70.0" fitWidth="87.0" layoutX="472.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level3/Lv3_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="44" fitHeight="70.0" fitWidth="87.0" layoutX="719.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level4/Lv4_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="55" fitHeight="70.0" fitWidth="87.0" layoutX="867.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Level/Level5/Lv5_OnMouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Back" fitHeight="62.0" fitWidth="85.0" layoutX="910.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Menu/Home/Back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Back_OnMouse" fitHeight="62.0" fitWidth="93.0" layoutX="906.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgbgr/Menu/Home/Back_OnMouse.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

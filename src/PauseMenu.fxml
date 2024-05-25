@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="172.0" prefWidth="366.0" style="-fx-background-color: #a66e28;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fx:id="homeButton" fitHeight="61.0" fitWidth="76.0" layoutX="259.0" layoutY="102.0">
+            <image>
+                <Image url="@imgbgr/Menu/Home/home.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="95.0" fitWidth="269.0" layoutX="47.0" layoutY="-14.0">
+            <image>
+                <Image url="@imgbgr/Menu/Scene/pauseView.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="playButton" fitHeight="61.0" fitWidth="76.0" layoutX="153.0" layoutY="102.0">
+            <image>
+                <Image url="@imgbgr/Menu/Scene/playOnPause.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="replayButton" fitHeight="61.0" fitWidth="76.0" layoutX="47.0" layoutY="102.0">
+            <image>
+                <Image url="@imgbgr/Menu/Scene/replay.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="homeButtonOnMouse" fitHeight="95.0" fitWidth="112.0" layoutX="241.0" layoutY="81.0">
+            <image>
+                <Image url="@imgbgr/Menu/Home/home.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="playButtonOnMouse" fitHeight="95.0" fitWidth="112.0" layoutX="135.0" layoutY="88.0">
+            <image>
+                <Image url="@imgbgr/Menu/Scene/playOnPause.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="replayButtonOnMouse" fitHeight="95.0" fitWidth="112.0" layoutX="29.0" layoutY="85.0">
+            <image>
+                <Image url="@imgbgr/Menu/Scene/replay.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
